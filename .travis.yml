@@ -1,8 +1,9 @@
 language: csharp
 solution: Oware.sln
 mono: none
+dist: focal
 os:
-  - focal
+  - linux
   - osx
 script:
   - dotnet test
